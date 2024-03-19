@@ -9,7 +9,7 @@ import NotFoundPage from "../../Pages/NotFoundPage/index.jsx";
 const Main = () => {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route index={true} element={<MainPage />} />
       <Route path="/questions" element={<QuestionPage />} />
       <Route path="/materials" element={<MaterialPage />} />
       <Route path="/contacts" element={<ContactsPage />} />
